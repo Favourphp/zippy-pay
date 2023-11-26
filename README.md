@@ -32,7 +32,7 @@
 
 - Register a new user: POST /api/user/register
 - Log in: POST /api/user/login
-- Verify user account: POST /api/user/confirm/:userID
+- Verify user account: GET /api/user/confirm/:userID
 - Forget password: POST /api/user/forget-password
 - Reset password: POST /api/user/reset-password/:token
 - Log out: GET /api/user/logout
