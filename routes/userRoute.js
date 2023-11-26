@@ -14,7 +14,7 @@ const {
 
 router.post("/register", registerController);
 router.post("/login", loginController);
-router.post("/confirm/:userID", verifyController);
+router.get("/confirm/:userID", verifyController);
 router.get("/profile", requireToken, getProfile);
 //router.put("/profile", editProfile)
 router.post("/forget-password", forgetPassword);

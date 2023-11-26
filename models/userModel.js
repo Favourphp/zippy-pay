@@ -37,10 +37,7 @@ const userSchema = new mongoose.Schema({
             },
             message: 'Invalid email address',
         }
-    },
-    displayName: {
-        type: String
-    },
+    }, 
     resetPasswordToken: {
         type: String
     },
