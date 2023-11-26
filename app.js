@@ -1,12 +1,12 @@
 require("dotenv").config();
 const express = require("express");
-const walletRoutes = require('./routes/walletRoutes');
+// const walletRoutes = require('./routes/walletRoutes');
 
 const port = process.env.PORT || 5000;
 const app = express();
 
 const authRoute = require("./routes/userRoute");
-app.use('/wallet', walletRoutes);
+// app.use('/wallet', walletRoutes);
 
 
 //call the database
