@@ -210,7 +210,7 @@ const resetPassword = async (req, res) => {
     // if no user found or token expired
     if (!user) {
       return res.status(400).json({
-        error: "invalid or expired toke",
+        error: "invalid or expired token",
       });
     }
 
